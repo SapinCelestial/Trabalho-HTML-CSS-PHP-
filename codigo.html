@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Personagem RPG</title>
+    <link rel="stylesheet" href="teste2.css">
+</head>
+<body style="background-color: rgb(151, 158, 153); font-family: Arial, Helvetica, sans-serif;">
+    <center><h1>Criação de Personagem RPG</h1>
+    <form action="ação.php" method="post">
+        <div class="form-container">
+            <label for="nome">Nome do Personagem:</label>
+            <input type="text" id="nome" name="nome">
+            
+            <label for="genero">Escolha seu gênero:</label>
+            <select id="habilidade" name="habilidade">
+                <option value="homem">Homem</option>
+                <option value="mulher">Mulher</option>
+            </select>
+
+            <label for="forca">Força: (1 a 999)</label>
+            <input type="number" id="forca" name="forca" min="1" max="999">
+
+            <label for="inteligencia">Inteligência: (1 a 999)</label>
+            <input type="number" id="inteligencia" name="inteligencia" min="1" max="999">
+
+            <label for="agilidade">Agilidade: (1 a 999)</label>
+            <input type="number" id="agilidade" name="agilidade" min="1" max="999">
+
+            <label for="habilidade">Escolha uma Habilidade:</label>
+            <select id="habilidade" name="habilidade">
+                <option value="espada">Espada</option>
+                <option value="magia">Magia</option>
+                <option value="arco">Arco</option>
+                <option value="arco">Escudo</option>
+            </select>         
+        </select></p><label><input type="submit" value="Criar Personagem"></label>
+    </form>
+    </div>
+</body>
+</html>
